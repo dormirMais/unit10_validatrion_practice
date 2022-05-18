@@ -20,6 +20,10 @@ elInputUsername.onkeyup = function () {
         elSuccessMessage.textContent = "아이디는 네 글자 이상이어야 합니다";
         elSuccessMessage.classList.remove("hide");
     }
+
+    if (elInputUsername.value.length === 0) {
+        elSuccessMessage.classList.add("hide");
+    }
 };
 
 elPasswordRetype.onkeyup = function () {
@@ -35,6 +39,10 @@ elPasswordRetype.onkeyup = function () {
         elMismatchMessage.classList.remove("green");
         elMismatchMessage.textContent = "비밀번호가 일치하지 않습니다.";
         elMismatchMessage.classList.remove("hide");
+    }
+
+    if (elPasswordRetype.value.length === 0) {
+        elMismatchMessage.classList.add("hide");
     }
 };
 
