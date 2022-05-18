@@ -16,6 +16,7 @@ elInputUsername.onkeyup = function () {
         elSuccessMessage.textContent = "사용할 수 있는 아이디입니다";
     } else {
         elSuccessMessage.classList.add("red");
+        elSuccessMessage.classList.remove("green");
         elSuccessMessage.textContent = "아이디는 네 글자 이상이어야 합니다";
         elSuccessMessage.classList.remove("hide");
     }
