@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Login</h1>
+        <div id="input-IDPW">
+            <div class="input-IDPW__idpw">
+                <div>Username</div>
+                <div class="input-IDPW__input">
+                    <span><i class="far fa-user"></i></span>
+                    <input id="username" type="text" placeholder="Type Your Username">
+                    <div class="success-message hide"></div>
+                </div>
+
+            </div>
+            <div class="input-IDPW__idpw">
+                <div>Password</div>
+                <div class="input-IDPW__input">
+                    <span><i class="fas fa-lock"></i></span>
+                    <input id="password" type="password" placeholder="Type Your Password">
+                </div>
+            </div>
+            <div class="input-IDPW__idpw">
+                <div>Password-Check</div>
+                <div class="input-IDPW__input">
+                    <span><i class="fas fa-lock"></i></span>
+                    <input id="password-retype" type="password" placeholder="Retype Your Password">
+                    <div class="mismatch-message hide">비밀번호가 일치하지 않습니다</div>
+                </div>
+            </div>
+            <div><span>Forgot Password?</span></div>
+        </div>
+
+        <div id="loginButton">
+            <button>LOGIN</button>
+        </div>
+
+        <div id="logos">
+            <span class="logos__text">Or Sign Up Using</span>
+            <div class="logos__logos">
+                <span class="facebook"><i class="fab fa-facebook-f fa-lg"></i></span>
+                <span class="tweeter"><i class="fab fa-twitter fa-lg"></i></span>
+                <span class="google"><i class="fab fa-google fa-lg"></i></span>
+            </div>
+        </div>
+        <footer>
+            <span>Or Sign Up Using</span>
+            <span>SIGN UP</span>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

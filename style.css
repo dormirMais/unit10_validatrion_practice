@@ -1,0 +1,196 @@
+@import "reset.css";
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#container {
+    width: 600px;
+    height: 900px;
+    background-color: transparent;
+    box-shadow: 0 5px 30px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 50px;
+    border-radius: 10px;
+    
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+#input-IDPW{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-IDPW__idpw{
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    border-bottom: 2px solid rgba(0, 0, 0, .15);
+    
+    
+}
+.input-IDPW__idpw div:first-child{
+    margin-bottom: 7px;
+}
+
+.input-IDPW__input{
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.input-IDPW__idpw input{
+    font-size: 20px;
+    font-weight: 530;
+    padding: 15px 15px;
+    border: none;
+    width: 55%;
+    background-color:transparent;
+}
+
+.input-IDPW__idpw input:focus{
+    outline: none;
+}
+
+#input-IDPW > div:last-child{
+    text-align: end;
+    padding-right: 15px;
+    font-weight: 600;
+    opacity: .5;
+    margin-bottom: 15px;
+    
+}
+
+
+
+.success-message{
+    font-size: 13px;
+    color: green;
+}
+
+.mismatch-message{
+    font-size: 13px;
+    color: red;
+}
+
+
+
+
+#loginButton{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#loginButton button{
+    font-size: 23px;
+    font-weight: 700;
+    padding: 15px 42%;
+    border-radius: 30px;
+    color: black;
+    background-color:transparent;
+    box-shadow: 13px 10px 13px 0 #1655c561;
+    border: none;
+
+}
+
+#logos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos__text{
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.logos__logos {
+    display: flex;
+    justify-content: center;
+}
+
+.logos__logos span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+
+    border-radius: 50%;
+    color: white;
+}
+
+
+.facebook{
+    background-color: #1878f3;
+}
+
+.tweeter{
+    background-color: #18b2e6;
+}
+
+.google{
+    background-color: #dc4e42;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 45px;
+
+}
+
+footer span:first-child{
+    margin-bottom: 15px;
+    opacity: .4;
+}
+
+.hide {
+    display: none;
+}
+
+.red{
+    color: red;
+}
+  
+
+.green{
+    color: green;
+}
